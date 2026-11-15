@@ -4,6 +4,10 @@ Ein kleiner Server für das NAS, der im eigenen YouTube-Music-Verlauf **Hör-Pha
 
 *A small self-hosted server that finds listening phases in your YouTube Music history and keeps mix playlists in YouTube Music up to date, with its own Flutter app. The UI is German.*
 
+![Übersicht, Phasen, eine Phase im Detail und ein Mix](docs/screenshots/uebersicht.png)
+
+*Die Screenshots zeigen eine Demo-Bibliothek mit erfundenen Interpreten und Songs.*
+
 > **Vorab:** Taktgefühl nutzt die inoffizielle YouTube-Music-Schnittstelle ([ytmusicapi](https://github.com/sigma67/ytmusicapi)) und lädt für die Klang-Analyse kurz Audio von YouTube ([yt-dlp](https://github.com/yt-dlp/yt-dlp)). Beides sind inoffizielle Werkzeuge und können bei Änderungen durch YouTube zeitweise ausfallen.
 
 ## Was es kann
