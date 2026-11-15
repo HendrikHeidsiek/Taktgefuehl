@@ -1,0 +1,20 @@
+# Build output and generated files
+.venv/
+data/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+server/download/*
+!server/download/.gitkeep
+server/models/
+
+# Signing secrets: never commit
+**/key.properties
+*.jks
+*.keystore
+
+# Personal release settings
+server/release.local
+.claude/
+.impeccable/

@@ -1,0 +1,10 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+ytmusicapi==1.12.3
+numpy==2.5.4
+scikit-learn==1.9.1
+anthropic==2.8.0
+segno==1.6.6
+essentia==2.1b6.dev1438
+onnxruntime==1.32.0
+yt-dlp[default]==2026.10.26

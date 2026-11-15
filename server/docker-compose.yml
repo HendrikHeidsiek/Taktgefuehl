@@ -1,0 +1,19 @@
+services:
+  taktgefuehl:
+    build: .
+    image: taktgefuehl-server:latest
+    container_name: taktgefuehl
+    restart: unless-stopped
+    environment:
+      # Nur beim allerersten Start relevant. Danach in der App ändern.
+      # Ohne Angabe steht ein Zufallspasswort einmalig im Container-Protokoll.
+      ADMIN_PASSWORD: "bitte-aendern"
+      TZ: "Europe/Berlin"
+      # Optional, statt in der App einzutragen:
+      # ANTHROPIC_API_KEY: "sk-ant-…"
+      # YT_CLIENT_ID: "…apps.googleusercontent.com"
+      # YT_CLIENT_SECRET: "…"
+    volumes:
+      - ./data:/data
+    ports:
+      - "8390:8080"
